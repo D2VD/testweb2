@@ -1,0 +1,14 @@
+{% extends 'market/base.html' %}
+
+{% block content %}
+<div class="container h-100">
+    <div class="row align-items-center h-100">
+        <div class="col-6 mx-auto">
+            <div class="text-center">
+                <h5>Pay with PayPal</h5>
+                {{ paypal_form.render }}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
